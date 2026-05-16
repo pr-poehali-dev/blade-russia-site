@@ -385,15 +385,17 @@ export default function Index() {
             Тысячи игроков уже здесь. Гайды, турниры, Discord и живое общение — всё в одном месте
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="glow-btn px-10 py-4 rounded-md text-base">
-              Вступить бесплатно
-            </button>
-            <button
-              className="glass-card px-10 py-4 rounded-md text-base font-semibold uppercase tracking-wider transition-all hover:border-white/20 neon-border-cyan"
+            <a href="https://t.me/Bladerussiaoffical" target="_blank" rel="noopener noreferrer" className="glow-btn px-10 py-4 rounded-md text-base inline-flex items-center justify-center gap-2">
+              <Icon name="Send" size={18} />
+              Наш Telegram
+            </a>
+            <a href="https://t.me/hoppying" target="_blank" rel="noopener noreferrer"
+              className="glass-card px-10 py-4 rounded-md text-base font-semibold uppercase tracking-wider transition-all hover:border-white/20 neon-border-cyan inline-flex items-center justify-center gap-2"
               style={{ fontFamily: "Oswald, sans-serif", color: "var(--neon-cyan)" }}
             >
-              Наш Discord
-            </button>
+              <Icon name="MessageCircle" size={18} />
+              Связь с владельцем
+            </a>
           </div>
         </div>
       </section>
@@ -419,15 +421,12 @@ export default function Index() {
             © 2024 Blade Russia — Неофициальное фан-сообщество
           </p>
           <div className="flex items-center gap-5">
-            <button className="text-muted-foreground hover:text-foreground transition-all">
+            <a href="https://t.me/hoppying" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-all">
               <Icon name="MessageCircle" size={18} />
-            </button>
-            <button className="text-muted-foreground hover:text-foreground transition-all">
-              <Icon name="Youtube" size={18} />
-            </button>
-            <button className="text-muted-foreground hover:text-foreground transition-all">
+            </a>
+            <a href="https://t.me/Bladerussiaoffical" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-all">
               <Icon name="Send" size={18} />
-            </button>
+            </a>
           </div>
         </div>
       </footer>
