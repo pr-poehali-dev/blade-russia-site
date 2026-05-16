@@ -162,7 +162,7 @@ export default function Index() {
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://cdn.poehali.dev/projects/bdb31413-e1d2-433d-9797-4baba23731f8/files/5f2cf415-66dd-4e8e-b1a4-2dd15d8587f6.jpg"
+            src="https://cdn.poehali.dev/projects/bdb31413-e1d2-433d-9797-4baba23731f8/bucket/15a68929-bd0c-4ee8-8101-1950b66db1b7.jpg"
             alt="Blade Hero"
             className="w-full h-full object-cover opacity-25"
           />
@@ -259,7 +259,7 @@ export default function Index() {
               style={{ minHeight: "420px" }}
             >
               <img
-                src="https://cdn.poehali.dev/projects/bdb31413-e1d2-433d-9797-4baba23731f8/files/96beee98-3c54-4a9a-a661-641a1a3add25.jpg"
+                src="https://cdn.poehali.dev/projects/bdb31413-e1d2-433d-9797-4baba23731f8/bucket/15a68929-bd0c-4ee8-8101-1950b66db1b7.jpg"
                 alt="Blade Character"
                 className="w-full h-full object-cover"
                 style={{ minHeight: "420px" }}
