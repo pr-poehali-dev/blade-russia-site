@@ -286,18 +286,7 @@ export default function Index() {
 
             <div className="flex flex-col gap-5">
               {[
-                {
-                  icon: "Eye",
-                  title: "Уникальный арт-стиль",
-                  desc: "Художественный стиль Hyung-tae Kim — яркие, выразительные персонажи на фоне впечатляющих азиатских пейзажей.",
-                  cyan: true,
-                },
-                {
-                  icon: "Shield",
-                  title: "PvE и PvP контент",
-                  desc: "Рейды, подземелья, арены 1v1 и 3v3, гильдийные войны. Контент для соло-игроков и больших кланов.",
-                  cyan: false,
-                },
+
               ].map((item) => (
                 <div
                   key={item.title}
