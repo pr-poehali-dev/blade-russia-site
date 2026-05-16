@@ -122,9 +122,9 @@ export default function Index() {
                 )}
               </button>
             ))}
-            <button className="glow-btn px-5 py-2 rounded-md text-sm">
-              Вступить в сообщество
-            </button>
+            <a href="https://t.me/Bladerussiaoffical" target="_blank" rel="noopener noreferrer" className="glow-btn px-5 py-2 rounded-md text-sm inline-flex items-center gap-2">
+              Играть в Telegram
+            </a>
           </div>
 
           {/* Mobile burger */}
@@ -148,9 +148,9 @@ export default function Index() {
                 {l.label}
               </button>
             ))}
-            <button className="glow-btn px-5 py-2.5 rounded-md text-sm w-full">
-              Вступить в сообщество
-            </button>
+            <a href="https://t.me/Bladerussiaoffical" target="_blank" rel="noopener noreferrer" className="glow-btn px-5 py-2.5 rounded-md text-sm w-full text-center">
+              Играть в Telegram
+            </a>
           </div>
         )}
       </nav>
@@ -195,9 +195,9 @@ export default function Index() {
           </p>
 
           <div className="animate-fade-up stagger-4 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="glow-btn px-8 py-3.5 rounded-md text-base w-full sm:w-auto">
-              Вступить в сообщество
-            </button>
+            <a href="https://t.me/Bladerussiaoffical" target="_blank" rel="noopener noreferrer" className="glow-btn px-8 py-3.5 rounded-md text-base w-full sm:w-auto text-center">
+              Играть в Telegram
+            </a>
             <button
               onClick={() => scrollTo("about")}
               className="px-8 py-3.5 rounded-md text-base font-semibold uppercase tracking-wider w-full sm:w-auto transition-all duration-200 hover:text-white neon-border text-muted-foreground"
